@@ -61,6 +61,5 @@ print(my_list)
 for i in ls2:
     
     print(i)
-    print(i)
 
 
