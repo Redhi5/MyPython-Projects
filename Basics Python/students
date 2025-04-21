@@ -1,0 +1,11 @@
+# Dictionary with student names as keys and list of scores as values
+students_scores = {
+    "John": [80, 90, 85],
+    "Alice": [70, 88, 92],
+    "Bob": [78, 83, 80]
+}
+
+# Print the second score for each student
+for name, scores in students_scores.items():
+    if len(scores) > 1:  # Check if the student has more than one score
+        print(f"{name}'s second score is {scores[1]}")

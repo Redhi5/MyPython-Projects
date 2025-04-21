@@ -1,4 +1,4 @@
-''''
+
 list = ['T','S','N']
 print(list)
 temp = list[0]
@@ -11,6 +11,8 @@ print(list)
 #Start, *middle, end = list
 #list2 = [end, *middle, Start]
 # Reverse the string using slicing
+# rr = list[::-2]
+# print(rr)
 
 reversed_ls = list[::-1]
 print(reversed_ls)
@@ -21,3 +23,4 @@ output_ls = reversed_ls[2:5]
 #print(type(output_str))
 print(output_ls)
 
+'''
